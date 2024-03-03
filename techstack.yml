@@ -1,0 +1,1607 @@
+repo_name: gangadharure/pulumi
+report_id: 44748fc83ff01cfab5d89d6801704f9f
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-03T17:33:34+00:00'
+requested_by: justinvp
+provider: github
+branch: master
+detected_tools_count: 125
+tools:
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: Pascal
+  description: An imperative and procedural programming language
+  website_url: https://en.wikipedia.org/wiki/Pascal_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/25462/default_b93b3ffaf8650f0584d7b2e14dd145f599722cae.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/assets-and-archives/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/assets-and-archives/nodejs/package.json
+  last_updated_by: Zaid Ajaj
+  last_updated_on: 2023-11-19 13:47:45.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/cmd/pulumi-test-language/go.mod
+  detection_source: cmd/pulumi-test-language/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/cmd/pulumi-test-language/go.mod
+  detection_source: cmd/pulumi-test-language/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-09-13 15:17:46.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-21 16:30:46.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/regress-8403/python/pulumi_mongodbatlas/__init__.py
+  detection_source: pkg/codegen/testing/test/testdata/regress-8403/python/pulumi_mongodbatlas/__init__.py
+  last_updated_by: Anton Tayanovskyy
+  last_updated_on: 2021-11-25 01:13:47.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Pat Gavlin
+  last_updated_on: 2022-01-05 21:13:59.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/.github/workflows/ci-build-binaries.yml
+  detection_source: ".github/workflows/ci-build-binaries.yml"
+  last_updated_by: Thomas Gummerer
+  last_updated_on: 2023-12-13 17:25:14.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/transpiled_examples/kubernetes-pp/python/kubernetes.py
+  detection_source: pkg/codegen/testing/test/testdata/transpiled_examples/kubernetes-pp/python/kubernetes.py
+  last_updated_by: aq17
+  last_updated_on: 2022-10-20 20:37:10.000000000 Z
+- name: Moby
+  description: An open framework to assemble specialized container systems without
+    reinventing the wheel
+  website_url: https://mobyproject.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/6825/default_f11e3ed506711f3a8e11d3c4a69b2448fa3854d5.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/output-funcs-tfbridge20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/output-funcs-tfbridge20/nodejs/package.json
+  last_updated_by: Anton Tayanovskyy
+  last_updated_on: 2021-10-07 19:39:19.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: Pulumi
+  description: Modern Infrastructure as Code
+  website_url: https://www.pulumi.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Infrastructure Build Tools
+  image_url: https://img.stackshare.io/service/9053/pulumi_mark_flat_onPurple.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/assets-and-archives/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/assets-and-archives/nodejs/package.json
+  last_updated_by: Zaid Ajaj
+  last_updated_on: 2023-11-19 13:47:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/tests/integration/construct_component_configure_provider/python/requirements.txt
+  detection_source: tests/integration/construct_component_configure_provider/python/requirements.txt
+  last_updated_by: Anton Tayanovskyy
+  last_updated_on: 2023-11-18 06:02:06.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2024-01-23 23:48:02.000000000 Z
+- name: Rome
+  description: A linter, compiler, bundler, and more for JavaScript, TypeScript, JSON,
+    HTML, Markdown, and CSS
+  website_url: https://rome.tools/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/25589/default_4a6d6ac5f685e81da1aeeb4f9dfe938685fdf940.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Kyle Pitzen
+  last_updated_on: 2022-09-06 16:18:31.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/cmd/pulumi-test-language/go.mod
+  detection_source: cmd/pulumi-test-language/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-09-13 15:17:46.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/.yarnrc
+  detection_source: ".yarnrc"
+  last_updated_by: Matt Ellis
+  last_updated_on: 2017-10-13 22:45:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/tests/integration/delete_before_create/step1/package.json
+  detection_source: tests/integration/delete_before_create/step1/package.json
+  last_updated_by: Sean Gillespie
+  last_updated_on: 2018-05-23 21:43:17.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/python/requirements.txt
+  detection_source: pkg/codegen/python/requirements.txt
+  last_updated_by: Anton Tayanovskyy
+  last_updated_on: 2021-08-30 20:52:58.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/lib/setup.py
+  detection_source: sdk/python/lib/setup.py
+  last_updated_by: joeduffy
+  last_updated_on: 2018-01-13 18:29:34.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/pulumi
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/.gitpod/Dockerfile
+  detection_source: ".gitpod/Dockerfile"
+  last_updated_by: Jan Keromnes
+  last_updated_on: 2021-03-10 16:13:35.000000000 Z
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Zaid Ajaj
+  last_updated_on: 2023-03-16 11:14:49.000000000 Z
+- name: aws-sdk-go
+  description: AWS SDK for the Go programming language
+  package_url: https://pkg.go.dev/github.com/aws/aws-sdk-go
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: browser
+  description: Package browser provides helpers to open files
+  package_url: https://pkg.go.dev/github.com/pkg/browser
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: Robbie McKinstry
+  last_updated_on: 2023-01-30 22:02:59.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Robbie McKinstry
+  last_updated_on: 2023-04-18 19:47:37.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2023-12-20 09:14:29.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: glog
+  description: Leveled execution logs for Go
+  package_url: https://pkg.go.dev/github.com/golang/glog
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: go-diff
+  description: Diff, match and patch text in Go
+  package_url: https://pkg.go.dev/github.com/sergi/go-diff
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Kyle Dixler
+  last_updated_on: 2023-06-26 21:54:40.000000000 Z
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Abhinav Gupta
+  last_updated_on: 2023-08-30 17:08:44.000000000 Z
+- name: go-multierror
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-multierror
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: go-ps
+  description: Find, list, and inspect processes from Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-ps
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: go-querystring
+  description: Go-querystring is Go library for encoding structs into URL query parameters
+  package_url: https://pkg.go.dev/github.com/google/go-querystring
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Pat Gavlin
+  last_updated_on: 2023-11-22 05:04:14.000000000 Z
+- name: go-shellquote
+  description: Go utilities for performing shell-like word splitting/joining
+  package_url: https://pkg.go.dev/github.com/kballard/go-shellquote
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-01-25 19:24:07.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-01-25 19:24:07.000000000 Z
+- name: go-version
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-version
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go/pulumi-language-go/go.mod
+  detection_source: sdk/go/pulumi-language-go/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: go-winio
+  description: Win32 IO-related utilities for Go
+  package_url: https://pkg.go.dev/github.com/Microsoft/go-winio
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/cmd/pulumi-language-nodejs/go.mod
+  detection_source: sdk/nodejs/cmd/pulumi-language-nodejs/go.mod
+  last_updated_by: Bryce Lampe
+  last_updated_on: 2023-11-01 17:21:52.000000000 Z
+- name: go/logging
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Julien P
+  last_updated_on: 2024-02-20 12:09:14.000000000 Z
+- name: go/storage
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/storage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: gojsonschema
+  description: An implementation of JSON Schema
+  package_url: https://pkg.go.dev/github.com/xeipuuv/gojsonschema
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Anton Tayanovskyy
+  last_updated_on: 2022-12-06 21:19:23.000000000 Z
+- name: golang-combinations
+  description: Golang library which provide an algorithm to generate all combinations
+    out of a given string array
+  package_url: https://pkg.go.dev/github.com/mxschmitt/golang-combinations
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-21 16:30:46.000000000 Z
+- name: inflector
+  description: Go library that pluralizes and singularizes English nouns
+  package_url: https://pkg.go.dev/github.com/gedex/inflector
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Pat Gavlin
+  last_updated_on: 2023-10-10 01:35:39.000000000 Z
+- name: jaeger-client-go
+  description: Jaeger Bindings for Go OpenTracing API
+  package_url: https://pkg.go.dev/github.com/uber/jaeger-client-go
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: Robbie McKinstry
+  last_updated_on: 2023-01-30 22:02:59.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Pat Gavlin
+  last_updated_on: 2023-10-10 01:35:39.000000000 Z
+- name: mmap-go
+  description: A portable mmap package for Go
+  package_url: https://pkg.go.dev/github.com/edsrzf/mmap-go
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Kyle Pitzen
+  last_updated_on: 2022-10-05 15:53:00.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: opentracing-go
+  description: OpenTracing API for Go
+  package_url: https://pkg.go.dev/github.com/opentracing/opentracing-go
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Julien P
+  last_updated_on: 2024-02-20 12:09:14.000000000 Z
+- name: pb
+  description: Console progress bar for Golang
+  package_url: https://pkg.go.dev/github.com/cheggaaa/pb
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: James Nugent
+  last_updated_on: 2022-03-28 13:43:56.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Kyle Dixler
+  last_updated_on: 2023-06-26 21:54:40.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/tests/go.mod
+  detection_source: tests/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: semver
+  description: Semantic Versioning
+  package_url: https://pkg.go.dev/github.com/blang/semver
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/cmd/pulumi-test-language/go.mod
+  detection_source: cmd/pulumi-test-language/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-09-13 15:17:46.000000000 Z
+- name: shlex
+  description: Automatically exported from code.google.com/p/go-shlex
+  package_url: https://pkg.go.dev/github.com/google/shlex
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Kyle Dixler
+  last_updated_on: 2023-09-12 15:34:03.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: evanboyle
+  last_updated_on: 2020-03-18 23:30:44.000000000 Z
+- name: term
+  description: Package term manages POSIX terminals
+  package_url: https://pkg.go.dev/github.com/pkg/term
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/go.mod
+  detection_source: sdk/go.mod
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2023-12-20 09:14:29.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-12-16 10:14:51.000000000 Z
+- name: times
+  description: "#golang file times"
+  package_url: https://pkg.go.dev/github.com/djherbis/times
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-02-01 09:39:41.000000000 Z
+- name: toml
+  description: TOML parser for Golang with reflection
+  package_url: https://pkg.go.dev/github.com/BurntSushi/toml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Robbie McKinstry
+  last_updated_on: 2023-05-02 17:20:28.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/cmd/pulumi-test-language/go.mod
+  detection_source: cmd/pulumi-test-language/go.mod
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-09-13 15:17:46.000000000 Z
+- name: zxcvbn-go
+  description: Zxcvbn password complexity algorithm in golang
+  package_url: https://pkg.go.dev/github.com/nbutton23/zxcvbn-go
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/go.mod
+  detection_source: pkg/go.mod
+  last_updated_by: Pat Gavlin
+  last_updated_on: 2023-10-10 01:35:39.000000000 Z
+- name: "@types/glob"
+  description: TypeScript definitions for Glob
+  package_url: https://www.npmjs.com/@types/glob
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16391/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: "@types/minimist"
+  description: TypeScript definitions for minimist
+  package_url: https://www.npmjs.com/@types/minimist
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16976/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/output-funcs-tfbridge20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/output-funcs-tfbridge20/nodejs/package.json
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-02-07 10:35:58.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/assets-and-archives/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/assets-and-archives/nodejs/package.json
+  last_updated_by: Zaid Ajaj
+  last_updated_on: 2023-11-19 13:47:45.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: "@types/semver"
+  description: TypeScript definitions for semver
+  package_url: https://www.npmjs.com/@types/semver
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: "@types/sinon"
+  description: TypeScript definitions for Sinon
+  package_url: https://www.npmjs.com/@types/sinon
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: "@types/tmp"
+  description: TypeScript definitions for tmp
+  package_url: https://www.npmjs.com/@types/tmp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17575/default_661ab15cb9ea1663765f3e16ee70a1d2d50118d1.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-03-01 12:05:27.000000000 Z
+- name: assert
+  description: The assert module from Node.js, for the browser
+  package_url: https://www.npmjs.com/assert
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/tests/examples/dynamic-provider/derived-inputs/package.json
+  detection_source: tests/examples/dynamic-provider/derived-inputs/package.json
+  last_updated_by: Matt Ellis
+  last_updated_on: 2018-01-29 23:42:24.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Robbie McKinstry
+  last_updated_on: 2022-08-30 17:53:30.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Kyle Pitzen
+  last_updated_on: 2022-08-29 20:44:03.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: google-protobuf
+  description: Protocol Buffers for JavaScript
+  package_url: https://www.npmjs.com/google-protobuf
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17483/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Bryce Lampe
+  last_updated_on: 2023-12-07 22:43:10.000000000 Z
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: ini
+  description: An ini encoder/decoder for node
+  package_url: https://www.npmjs.com/ini
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: evanboyle
+  last_updated_on: 2020-09-14 03:28:24.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Zaid Ajaj
+  last_updated_on: 2022-03-22 11:35:06.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: normalize-package-data
+  description: Normalizes data that can be found in package.json files
+  package_url: https://www.npmjs.com/normalize-package-data
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18641/default_47cf9c81f50087b8f8785ca33f1ee4b3b136eb76.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Julien P
+  last_updated_on: 2024-02-29 21:06:24.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: joeduffy
+  last_updated_on: 2017-08-26 19:07:54.000000000 Z
+- name: pkg-dir
+  description: Find the root directory of a Node.js project or npm package
+  package_url: https://www.npmjs.com/pkg-dir
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18021/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2023-06-24 00:20:43.000000000 Z
+- name: require-from-string
+  description: Require module from string
+  package_url: https://www.npmjs.com/require-from-string
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18577/default_3a3bdb19c47f508090aa45abc5a396ca16544447.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Daniel Bradley
+  last_updated_on: 2022-05-30 08:31:28.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2024-01-25 04:18:08.000000000 Z
+- name: shell-quote
+  description: Quote and parse shell commands
+  package_url: https://www.npmjs.com/shell-quote
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17489/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Robbie McKinstry
+  last_updated_on: 2022-08-30 17:53:30.000000000 Z
+- name: tmp
+  description: Temporary file and directory creator
+  package_url: https://www.npmjs.com/tmp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/nodejs/package.json
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/output-funcs-edgeorder/nodejs/package.json
+  detection_source: pkg/codegen/testing/test/testdata/output-funcs-edgeorder/nodejs/package.json
+  last_updated_by: Fraser Waters
+  last_updated_on: 2023-02-07 10:35:58.000000000 Z
+- name: upath
+  description: A proxy to `path`
+  package_url: https://www.npmjs.com/upath
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18193/default_63c787c86dc2f82d999c8bfdd3f0cd4aa18c2145.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/nodejs/package.json
+  detection_source: sdk/nodejs/package.json
+  last_updated_by: Alex Clemmer
+  last_updated_on: 2019-10-22 07:20:26.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/tests/integration/delete_before_create/step1/package.json
+  detection_source: tests/integration/delete_before_create/step1/package.json
+  last_updated_by: Mikhail Shilkov
+  last_updated_on: 2022-06-03 09:33:41.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Ian Wahbe
+  last_updated_on: 2022-02-04 00:16:16.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2021-12-07 15:59:07.000000000 Z
+- name: dill
+  description: Serialize all of python
+  package_url: https://pypi.org/project/dill
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19972/default_735d20726524f3a2b12f956af25bde52f942f85a.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/lib/setup.py
+  detection_source: sdk/python/lib/setup.py
+  last_updated_by: Fraser Waters
+  last_updated_on: 2022-05-27 11:54:40.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/lib/setup.py
+  detection_source: sdk/python/lib/setup.py
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2024-02-05 19:49:08.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Kyle Dixler
+  last_updated_on: 2023-02-06 20:36:03.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-01-28 13:05:32.000000000 Z
+- name: pytest-timeout
+  description: Py.test plugin to abort hanging tests
+  package_url: https://pypi.org/project/pytest-timeout
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Fraser Waters
+  last_updated_on: 2024-01-28 13:05:32.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/kubernetes20/python/pyproject.toml
+  detection_source: pkg/codegen/testing/test/testdata/kubernetes20/python/pyproject.toml
+  last_updated_by: Eron Wright
+  last_updated_on: 2024-03-02 06:01:31.000000000 Z
+- name: semver
+  description: Python helper for Semantic Versioning
+  package_url: https://pypi.org/project/semver
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19960/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/pkg/codegen/testing/test/testdata/assets-and-archives/python/setup.py
+  detection_source: pkg/codegen/testing/test/testdata/assets-and-archives/python/setup.py
+  last_updated_by: Zaid Ajaj
+  last_updated_on: 2023-11-19 13:47:45.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/tests/integration/construct_component_configure_provider/python/requirements.txt
+  detection_source: tests/integration/construct_component_configure_provider/python/requirements.txt
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2024-01-25 19:24:22.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/lib/setup.py
+  detection_source: sdk/python/lib/setup.py
+  last_updated_by: joeduffy
+  last_updated_on: 2018-01-13 18:29:34.000000000 Z
+- name: sphinx_rtd_theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx_rtd_theme
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/developer-docs/requirements.txt
+  detection_source: developer-docs/requirements.txt
+  last_updated_by: Pat Gavlin
+  last_updated_on: 2021-08-25 22:18:13.000000000 Z
+- name: wheel
+  description: A built-package format for Python
+  package_url: https://pypi.org/project/wheel
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19889/default_7182952cb92ae36151a754e2592ac68e6e6340df.png
+  detection_source_url: https://github.com/gangadharure/pulumi/blob/master/sdk/python/requirements.txt
+  detection_source: sdk/python/requirements.txt
+  last_updated_by: Justin Van Patten
+  last_updated_on: 2021-12-07 15:59:07.000000000 Z
